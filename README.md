@@ -1,1 +1,1 @@
-# algos
+# Training materials
