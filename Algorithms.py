@@ -1,3 +1,4 @@
+# %%
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
@@ -7,7 +8,7 @@ from IPython import get_ipython
 # <a href="https://colab.research.google.com/github/aliobeid/algos/blob/master/Algorithms.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 # %% [markdown]
 # # Permutations of a String
-# 
+#
 
 # %%
 
@@ -38,11 +39,11 @@ def permutations(word):
 
 
 # %%
-get_ipython().run_cell_magic('timeit', '', 'permutations("abcd")')
+get_ipython().run_cell_magic('time', '', 'permutations("abcd")')
 
 
 # %%
-get_ipython().run_cell_magic('timeit', '', 'perms("abcd")')
+get_ipython().run_cell_magic('time', '', 'perms("abcd")')
 
 
 # %%
